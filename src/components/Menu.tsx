@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { menuData } from '../data/menuData'
-import type { MenuItem } from '../data/menuData'
+import { menuData } from '../data/MenuData'
+import type { MenuItem } from '../data/MenuData'
 
 const MenuItemRow = ({ item }: { item: MenuItem }) => (
     <div className="flex items-baseline justify-between py-4 border-b"
