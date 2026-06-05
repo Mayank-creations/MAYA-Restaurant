@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import Navbar from "./Layout/Navbar"
 import Menu from "./components/Menu"
 import Review from "./components/Review"
+import Contact from "./components/Contact"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Menu />
       <Review />
+      <Contact />
 
       <div id="footer" className="h-20" />
     </div>
