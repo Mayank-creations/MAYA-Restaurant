@@ -1,6 +1,7 @@
 import About from "./components/About"
 import Hero from "./components/Hero"
 import Navbar from "./Layout/Navbar"
+import Menu from "./components/Menu"
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Menu />
 
       <div id="footer" className="h-20" />
     </div>
